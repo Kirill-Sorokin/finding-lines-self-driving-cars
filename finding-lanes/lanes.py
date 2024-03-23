@@ -78,5 +78,5 @@ while(capture.isOpened()):
     cv2.imshow("result", combo_image)
     if cv2.waitKey(1) == ord('q'):
         break
-cap.release()
+capture.release()
 cv2.destroyAllWindows()
